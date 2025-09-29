@@ -157,12 +157,17 @@
     <script>
       const hamburger = document.querySelector(".navbar-toggler");
       const stickyTop = document.querySelector(".sticky-top");
-      const tombol = document.querySelector(".tmbl");
+      const offcanvas = document.querySelector(".offcanvas");
+      // const tombol = document.querySelector(".tmbl");
 
-      hamburger.addEventListener("click", function() {
-        stickyTop.classList.toggle("overflow-visible");
+      offcanvas.addEventListener("show.bs.offcanvas", function() {
+        stickyTop.style.overflow = "visible";
       });
 
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function() {
+        stickyTop.style.overflow = "hidden";
+      });
       // let scrolldelay;
 
       // function pageScroll() {
