@@ -31,7 +31,7 @@
             <h1>Asgar & Ekawati</h1>
             <p>Akan melangsungkan Pernikahan dalam:</p>
             <div class="simply-countdown"></div>
-            <a href="#home" class="btn btn-lg mt-4">Lihat Undangan</a>
+            <a href="#home" class="btn btn-lg mt-4 tmbl">Lihat Undangan</a>
 
         </main>
     </section>
@@ -153,6 +153,25 @@
             seconds: { root: 'detik', lambda: (root, n) => n > 1 ? root + '' : root }
         },
     });
+    </script>
+    <script>
+      const hamburger = document.querySelector(".navbar-toggler");
+      const stickyTop = document.querySelector(".sticky-top");
+      const tombol = document.querySelector(".tmbl");
+
+      hamburger.addEventListener("click", function() {
+        stickyTop.classList.toggle("overflow-hidden");
+      });
+
+      // let scrolldelay;
+
+      // function pageScroll() {
+      //   window.scrollBy(0,1);
+      //   scrolldelay = setTimeout(pageScroll,10);
+      // }
+      // tombol.addEventListener("click", pageScroll);
+
+
     </script>
   </body>
 </html>

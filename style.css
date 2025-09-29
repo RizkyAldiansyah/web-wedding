@@ -213,7 +213,11 @@ S
         text-align: center;
     }
 
-    
+    .sticky-top {
+        overflow: hidden;
+    }
+
+
 }
 /* mobile phone */
 @media (max-width: 576px){
