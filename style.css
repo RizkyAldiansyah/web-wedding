@@ -229,4 +229,8 @@ S
         padding: 20px;
         margin: 3px;
     }
+
+    .sticky-top {
+        overflow: hidden;
+    }
 }
