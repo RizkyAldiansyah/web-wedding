@@ -51,7 +51,7 @@
          <div class="navbar-nav ms-auto">
         <a class="nav-link" href="#home">Home</a>
         <a class="nav-link" href="#info">Info</a>
-        <a class="nav-link" href="#detail">Detail</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
         </div>
         </div>
       </div>
@@ -104,16 +104,40 @@
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
           <h2>Informasi Acara</h2>
-          <p class="alamat">rumah lorem ipsum <br> Jl. Alfons Nisnoni No.25b, Bakunase, Kec. Kota Raja, Kota Kupang</p>
+          <p class="alamat">Rumah Kediaman Hj. Mankana <br> Ruko Sea Cell 2<br> Jl. Alfons Nisnoni No.25b, Bakunase, Kec. Kota Raja, Kota Kupang</p>
           <a href="https://maps.app.goo.gl/u8RovMcX5qzrAC5X8" target="_blank" class="btn btn-light btn-sm my-3">Klil untuk membuka peta</a>
         </div>
       </div>
 
       <div class="row justify-content-center mt-4">
         <div class="col-md-5 col-10">
+          <div class="card text-center text-bg-light mb-5">
+            <div class="card-header">
+              Akad Nikah
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>09.00 WITA - Selesai</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Minggu, 12 Oktober 2025</span>
+                </div>
+                <div class="row justify-content-center mt-4">
+            <div class="card-footer">
+              Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-5 col-10">
           <div class="card text-center text-bg-light">
             <div class="card-header">
-              Akad & Resepsi
+              Resepsi
             </div>
             <div class="card-body">
               <div class="row justify-content-center">
@@ -125,12 +149,57 @@
                   <i class="bi bi-calendar3 d-block"></i>
                   <span>Minggu, 12 Oktober 2025</span>
                 </div>
-              </div>
-            </div>
+                <div class="row justify-content-center mt-4">
             <div class="card-footer">
               Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
             </div>
+          </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <span>Memori Kisah Kami</span>
+          <h2>Galeri Foto</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        </div>
+      </div>
+
+      <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+        <div class="col mt-3">
+          <a href="img/gallery/1.JPG" data-toggle="lightbox" data-caption="Asgar & Eka 1" data-gallery="galerifoto">
+            <img src="img/gallery/thumbnail/1.JPG" alt="Asgar & Eka 1" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/2.JPG" data-toggle="lightbox" data-caption="Asgar & Eka 2" data-gallery="galerifoto">
+            <img src="img/gallery/thumbnail/2.JPG" alt="Asgar & Eka 2" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/3.JPG" data-toggle="lightbox" data-caption="Asgar & Eka 3" data-gallery="galerifoto">
+            <img src="img/gallery/thumbnail/3.JPG" alt="Asgar & Eka 3" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/4.JPG" data-toggle="lightbox" data-caption="Asgar & Eka 4" data-gallery="galerifoto">
+            <img src="img/gallery/thumbnail/4.JPG" alt="Asgar & Eka 4" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/5.JPG" data-toggle="lightbox" data-caption="Asgar & Eka 5" data-gallery="galerifoto">
+            <img src="img/gallery/thumbnail/5.JPG" alt="Asgar & Eka 5" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/6.JPG" data-toggle="lightbox" data-caption="Asgar & Eka 6" data-gallery="galerifoto">
+            <img src="img/gallery/thumbnail/6.JPG" alt="Asgar & Eka 6" class="img-fluid w-100 rounded">
+          </a>
         </div>
       </div>
     </div>
@@ -140,12 +209,14 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
     <script>
       simplyCountdown('.simply-countdown', {
         year: 2025, // Target year (required)
         month: 10, // Target month [1-12] (required)
         day: 12, // Target day [1-31] (required)
-        hours: 0, // Target hour [0-23], default: 0
+        hours: 8, // Target hour [0-23], default: 0
         words: { // Custom labels, with lambda for plurals
             days: { root: 'hari', lambda: (root, n) => n > 1 ? root + '' : root },
             hours: { root: 'jam', lambda: (root, n) => n > 1 ? root + '' : root },
@@ -154,6 +225,7 @@
         },
     });
     </script>
+
     <script>
       const hamburger = document.querySelector(".navbar-toggler");
       const stickyTop = document.querySelector(".sticky-top");
@@ -168,6 +240,35 @@
         stickyTop.style.overflow = "hidden";
       });
 
+    </script>
+
+    <script>
+      // function disableScroll() {
+      //   scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      //   scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      
+
+      //   window.onscroll = function() {
+      //     window.scrollTo(scrollTop, scrollLeft);
+      //   };
+
+      //   const rootElement = document.querySelector(":root");
+      //   rootElement.style.scrollBehavior = "auto";
+
+      // }
+
+      // disableScroll();
+
+      function pageScroll() {
+        window.scrollBy(0,1);
+        scrolldelay = setTimeout(pageScroll,1);
+      }
+
+      pageScroll();
+
+      addEventListener("wheel", function () {
+        clearTimeout(scrolldelay);
+      })
     </script>
   </body>
 </html>
