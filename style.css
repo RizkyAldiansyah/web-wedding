@@ -40,10 +40,11 @@ body {
 .hero h1 {
     font-family: "Sacramento", cursive;
     font-size: 6rem;
+    font-weight: bold;
 }
 
 .hero h4 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .hero p {
@@ -86,7 +87,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
-    padding-top: 15rem;
+    padding-top: 8rem;
     padding-bottom: 5rem;
 } 
 
@@ -99,25 +100,35 @@ body {
     font-weight: bold;
 }
 
+.home .ayatsuci {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
 .home h3 {
     color: #444;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
-S
+
 .home p {
     font-size: 1.1rem;
     color: #666;
 }
 
 .home .couple {
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .home .couple h3 {
     font-family: "Sacramento";
     font-size: 2.6rem;
     color: var(--pink);
+    font-weight: bold;
+}
+
+.home .anak-ke {
     font-weight: bold;
 }
 
@@ -146,7 +157,7 @@ S
     background-color: var(--bg);
     color: white;
     padding-top: 9rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
 }
 
 .info .alamat {
